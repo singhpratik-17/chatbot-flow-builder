@@ -1,0 +1,25 @@
+/* TextNode.css */
+
+.text-node {
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    background-color: #fff;
+    min-width: 150px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .text-node-content {
+    margin: 5px 0;
+  }
+  
+  .text-node-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .text-node-text {
+    font-size: 14px;
+    color: #333;
+  }

@@ -1,0 +1,145 @@
+.sidebar {
+  width: 300px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #dee2e6;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.sidebar h3 {
+  margin: 0;
+  padding: 1rem;
+  background-color: #e9ecef;
+  border-bottom: 1px solid #dee2e6;
+  color: #495057;
+  font-size: 1.1rem;
+}
+
+.sidebar h4 {
+  margin: 0.5rem 0;
+  padding: 0 1rem;
+  color: #6c757d;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Nodes Panel Styles */
+.nodes-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.nodes-list {
+  flex: 1;
+  padding: 1rem;
+}
+
+.nodes-section {
+  margin-bottom: 1.5rem;
+}
+
+.node-item {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  cursor: grab;
+  transition: all 0.2s ease;
+}
+
+.node-item:hover {
+  border-color: #007bff;
+  box-shadow: 0 2px 4px rgba(0, 123, 255, 0.1);
+  transform: translateY(-1px);
+}
+
+.node-item:active {
+  cursor: grabbing;
+}
+
+.node-item.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.node-item.disabled:hover {
+  transform: none;
+  border-color: #dee2e6;
+  box-shadow: none;
+}
+
+.node-icon {
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+  width: 2rem;
+  text-align: center;
+}
+
+.node-info {
+  flex: 1;
+}
+
+.node-name {
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 0.25rem;
+}
+
+.node-description {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+/* Settings Panel Styles */
+.settings-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.settings-content label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #495057;
+}
+
+.settings-content textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  resize: vertical;
+  min-height: 80px;
+  font-family: inherit;
+}
+
+.settings-content textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.node-info {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #e9ecef;
+  border-radius: 4px;
+}
+
+.node-info small {
+  color: #6c757d;
+  font-size: 0.8rem;
+}
+
