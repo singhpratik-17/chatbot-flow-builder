@@ -2,6 +2,8 @@
 
 A functional, extensible Chatbot Flow Builder built with React and React Flow.
 
+🚀 Live Demo: https://chatbot-flow-builder-pink.vercel.app/
+
 ## Features
 
 - **Drag & Drop Interface**: Drag nodes from the sidebar to create flow diagrams
